@@ -5,6 +5,7 @@
 
 ## Reto 1: Resumen de conceptos clave en Python
 
+
 ### Crear una función que realice operaciones básicas (suma, resta, multiplicación, división) entre dos números, según la elección del usuario, la forma de entrada de la función será los dos operandos y el caracter usado para la operación. *entrada:* `(1,2,"+")`, *salida* `(3)`.
 
 + Separamos el input en: número A, número B y operador
@@ -36,6 +37,8 @@ Escriba dos números y el operador, separados por coma: 15,3,/
 ['15', '3', '/']
 5.0
 ```
+
+
 ### Realice una función que permita validar si una palabra es un palíndromo. **Condición:** No se vale hacer slicing para invertir la palabra y verificar que sea igual a la original.
 
 + Convertimos la palabra a minúsculas usando el método lower
@@ -64,6 +67,7 @@ print(entrada+" es palíndromo? "+str(pal))
 Escriba la palabra a verificar: reconocer
 reconocer es palíndromo? True
 ```
+
 
 ### Escribir una función que reciba una lista de números y devuelva solo aquellos que son primos. La función debe recibir una lista de enteros y retornar solo aquellos que sean primos.
 
@@ -102,6 +106,7 @@ los números primos son:
 [2, 3, 5, 7, 11, 13, 17, 19]
 ```
 
+
 ### Escribir una función que reciba una lista de números enteros y retorne la mayor suma entre dos elementos consecutivos.
 
 + Tomamos una lista de n números
@@ -127,6 +132,7 @@ Escriba la lista de números, separados por coma: 47,15,18,75,35,48,77,55
 La suma mayor es:
 132
 ```
+
 
 ### Escribir una función que reciba una lista de string y retorne unicamente aquellos elementos que tengan los mismos caracteres. e.g. entrada: `["amor", "roma", "perro"]`, salida `["amor", "roma"]`
 
